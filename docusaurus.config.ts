@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'MisakaTang-开源人生',
+  title: 'MisakaTang',
   tagline: 'Wir müssen wissen. Wir werden wissen.',
   favicon: 'img/favicon.ico',
 
@@ -78,6 +78,11 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
+          href: 'https://misakatang.cn/',
+          label: 'MisakaTang\'s Blog',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/TangMisaka23001',
           label: 'GitHub',
           position: 'right',
@@ -121,7 +126,7 @@ const config: Config = {
               href: 'http://blog.bbchen.top',
             },
             {
-              label: 'BB Aurthur_的博客',
+              label: 'Aurthur_的博客',
               href: 'http://blog.zhuzhenyuan.cn',
             },
           ],
