@@ -127,6 +127,17 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} MisakaTang, Inc. Built with Docusaurus.`,
     },
     prism: {
+      additionalLanguages: [
+        'java',
+        'latex',
+        'haskell',
+        'matlab',
+        'PHp',
+        'bash',
+        'diff',
+        'json',
+        'scss',
+      ],
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
