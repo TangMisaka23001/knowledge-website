@@ -58,7 +58,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: '开源人生',
+      title: 'Open Source Life',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -66,7 +66,7 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'technicalSidebar',
           position: 'left',
           label: 'Technical',
         },
@@ -105,16 +105,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'LearnData 开源笔记',
+              href: 'https://newzone.top',
             },
           ],
         },
@@ -132,7 +124,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} MisakaTang, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
