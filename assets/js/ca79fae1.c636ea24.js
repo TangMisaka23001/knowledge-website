@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_knowledge_repo=self.webpackChunkmy_knowledge_repo||[]).push([[760],{1177:e=>{e.exports=JSON.parse('{"label":"Crafting Interpreters","permalink":"/blog/tags/crafting-interpreters","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
