@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_knowledge_repo=self.webpackChunkmy_knowledge_repo||[]).push([[121],{8070:a=>{a.exports=JSON.parse('[{"label":"\u7f16\u8bd1\u5668","permalink":"/docs/tags/\u7f16\u8bd1\u5668","count":2},{"label":"Programming Language Pragmatics","permalink":"/docs/tags/programming-language-pragmatics","count":2}]')}}]);
