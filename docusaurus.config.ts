@@ -81,6 +81,12 @@ const config: Config = {
           position: 'left',
           label: 'Life',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tools',
+          position: 'left',
+          label: 'Tools',
+        },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://misakatang.cn/',
