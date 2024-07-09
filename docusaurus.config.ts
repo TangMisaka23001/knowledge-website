@@ -63,6 +63,9 @@ const config: Config = {
         autoCollapseCategories: true,
       },
     },
+    tableOfContents:{
+        maxHeadingLevel: 4,
+    },
     navbar: {
       hideOnScroll: true,
       title: 'Open Source Life',
