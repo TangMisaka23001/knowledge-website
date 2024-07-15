@@ -30,6 +30,7 @@ const sidebars: SidebarsConfig = {
           'technical/programming-language-pragmatics/05',
           'technical/programming-language-pragmatics/06',
           'technical/programming-language-pragmatics/07',
+          'technical/programming-language-pragmatics/08',
       ],
     }
   ],
