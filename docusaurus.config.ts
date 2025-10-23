@@ -90,6 +90,12 @@ const config: Config = {
           position: 'left',
           label: 'Tools',
         },
+         {
+          type: 'docSidebar',
+          sidebarId: 'baby',
+          position: 'left',
+          label: 'Baby',
+        },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://misakatang.cn/',
