@@ -75,8 +75,10 @@ const config: Config = {
       },
       items: [
         {
+          type: 'docSidebar',
           label: 'Technical',
-          to: 'docs/technical',
+          sidebarId: 'technical',
+          position: 'left',
         },
         {
           type: 'docSidebar',

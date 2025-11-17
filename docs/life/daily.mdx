@@ -1,5 +1,92 @@
 ---
 slug: /daily
+sidebar_position: 1
 title: 每日仪式
 ---
-## TODO
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## 一天的事件时间轴
+
+<style>
+{`
+.timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #3b82f6;
+}
+
+.timeline-item:last-child::after {
+  display: none;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: 12px;
+  width: 2px;
+  height: calc(100% + 18px);
+  background-color: #e5e7eb;
+}
+
+.timeline-time {
+  font-weight: 600;
+  color: #3b82f6;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.timeline-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+`}
+</style>
+
+<div className="timeline">
+  <div className="timeline-item">
+    <div className="timeline-time">起床</div>
+    <div className="timeline-title">清水洗脸、保湿</div>
+  </div>
+
+  <div className="timeline-item">
+    <div className="timeline-time">早饭+咖啡</div>
+    <div className="timeline-title">16+8饮食（不吃）+摩卡壶咖啡</div>
+  </div>
+
+  <div className="timeline-item">
+    <div className="timeline-time">工作</div>
+    <div className="timeline-title">达标饮水量、维生素补剂摄入</div>
+  </div>
+
+  <div className="timeline-item">
+    <div className="timeline-time">运动</div>
+    <div className="timeline-title">骑行</div>
+  </div>
+
+  <div className="timeline-item">
+    <div className="timeline-time">洗浴+剃须</div>
+    <div className="timeline-title">冷水收尾、洗面奶洁面+湿式剃须、洗鼻器冲鼻、须后</div>
+  </div>
+</div>
